@@ -2,18 +2,25 @@ import './App.css'
 import { Aside } from './components/Aside'
 import { Header } from './components/header'
 import { Feed } from './components/Feed'
-import { Post } from './components/post'
-import { Stories } from './components/storie'
+import { useEffect, useState } from "react";
 
 
 function App() {
 
 
+  const [me, setMe] = useState([]);
+
+  useEffect( () => {
+      fetch('https://api.github.com/users/kaykyFreitas')
+      .then(response => response.json())
+      .then(data => setMe(data))
+  })
+
 
   return (
     <div className="App">
       <Header />
-      <Aside />
+      <Aside userImg={ me.avatar_url } name={ me.login }  />
       <Feed />
 
     </div>
@@ -22,14 +29,3 @@ function App() {
 }
 
 export default App
-
-
-/*
-
-const [count, setCount] = useState(0)
-
-<button type="button" onClick={() => setCount((count) => count + 1)}>
-  count is: {count}
-</button>
-
-*/

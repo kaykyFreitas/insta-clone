@@ -20,7 +20,7 @@ export function Post(props) {
                 </PostHeader>
 
                 <PhotoContainer>
-
+                    <img src={ props.postImg } />
                 </PhotoContainer>
 
                 <PostFooter>
@@ -39,7 +39,7 @@ export function Post(props) {
                     </Likes>
 
                     <PostDescription>
-                        <p><span>ocaradosquadrinhoss</span>meu dog</p>
+                        <p><span>{ props.userName }</span>{ props.desc }</p>
                     </PostDescription>
 
                     <ViewAllComents>View all 32 comments</ViewAllComents>

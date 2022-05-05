@@ -53,7 +53,10 @@ export const PhotoContainer = styled.div`
     width: 614px;
     height: 614px;
 
-    background: yellow;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 `;
 
 export const PostFooter = styled.div`
