@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Aside userImg={ me.avatar_url } name={ me.login }  />
+      <Aside userImg={ me.avatar_url } userName={ me.login } suggestionImg={ me.avatar_url } suggestionName={ me.login } />
       <Feed />
 
     </div>

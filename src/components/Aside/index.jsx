@@ -21,6 +21,38 @@ export function Aside(props) {
                         <span>Follow</span>
                     </SuggestionUser>
 
+                    <SuggestionUser>
+                        <div>
+                            <img src={ props.suggestionImg } />
+                            <p>{ props.suggestionName }</p>
+                        </div>
+                        <span>Follow</span>
+                    </SuggestionUser>
+
+                    <SuggestionUser>
+                        <div>
+                            <img src={ props.suggestionImg } />
+                            <p>{ props.suggestionName }</p>
+                        </div>
+                        <span>Follow</span>
+                    </SuggestionUser>
+
+                    <SuggestionUser>
+                        <div>
+                            <img src={ props.suggestionImg } />
+                            <p>{ props.suggestionName }</p>
+                        </div>
+                        <span>Follow</span>
+                    </SuggestionUser>
+
+                    <SuggestionUser>
+                        <div>
+                            <img src={ props.suggestionImg } />
+                            <p>{ props.suggestionName }</p>
+                        </div>
+                        <span>Follow</span>
+                    </SuggestionUser>
+
                     
 
                    

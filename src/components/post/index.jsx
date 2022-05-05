@@ -13,14 +13,14 @@ export function Post(props) {
 
                 <PostHeader>
                     <UserContainer>
-                        <PostUser><img src={ props.userImage } /></PostUser>
+                        <PostUser><img src={ props.userImage } alt="User" /></PostUser>
                         <PostUserName>{ props.userName }</PostUserName>
                     </UserContainer>
                     <AiOutlineEllipsis />
                 </PostHeader>
 
                 <PhotoContainer>
-                    <img src={ props.postImg } />
+                    <img src={ props.postImg } alt="Post" />
                 </PhotoContainer>
 
                 <PostFooter>
@@ -34,7 +34,7 @@ export function Post(props) {
                     </ActionsContainer>
 
                     <Likes>
-                        <img src={ props.likedUserImage }/>
+                        <img src={ props.likedUserImage } alt="Like"/>
                         <p>Liked by <strong>KaykyFreitas2004</strong> and <strong>others</strong></p>
                     </Likes>
 

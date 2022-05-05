@@ -11,6 +11,8 @@ export const StoriesContainer = styled.div`
     display: flex;
     align-items: center;
 
+    overflow: hidden;
+
   
 `;
 
@@ -20,16 +22,24 @@ export const StoriePost = styled.div`
     border-radius: 50%;
     margin-left: 20px;
 
-    border: 4px solid orange;
+    border: 2px solid #c4c4c4;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    padding: 4px;
+
     div {
-        width: 60px;
-        height: 60px;
+        width: 66px;
+        height: 66px;
         border-radius: 50%;
         background: yellow;
+
+        img {
+            width: 66px;
+            height: 66px;
+            border-radius: 50%;
+        }
     }
 `;

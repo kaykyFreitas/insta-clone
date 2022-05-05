@@ -17,10 +17,13 @@ export function Feed() {
 
     return(
         <FeedContainer>
+            
             <Stories />
+
             {following.map(follow => {
                 return <Post key={follow.name} desc={ follow.html_url } postImg={ follow.avatar_url } userName={follow.login} userImage={follow.avatar_url} likedUserImage={ user } />
             })}
+            
         </FeedContainer> 
     )
 }
