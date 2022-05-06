@@ -5,7 +5,7 @@ export const PostContainer = styled.div`
     height: 884px;
 
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 32.5%;
 
     border: 1px solid #c4c4c4;
     border-radius: 2.5px;

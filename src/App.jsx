@@ -14,7 +14,7 @@ function App() {
       fetch('https://api.github.com/users/kaykyFreitas')
       .then(response => response.json())
       .then(data => setMe(data))
-  })
+  }, [])
 
 
   return (

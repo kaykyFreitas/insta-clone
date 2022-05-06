@@ -10,7 +10,7 @@ export function Stories() {
             fetch('https://api.github.com/users/kaykyFreitas/following')
             .then(response => response.json())
             .then(data => setFollowing(data))
-        })
+        }, [])
 
     return(
         <>

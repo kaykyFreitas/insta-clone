@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const StoriesContainer = styled.div`
     margin-top: 85px;
-    margin-left: 200px;
+    margin-left: 32.5%;
     width: 614px;
     height: 120px;
     border: 1px solid #c4c4c4;
@@ -34,7 +34,7 @@ export const StoriePost = styled.div`
         width: 66px;
         height: 66px;
         border-radius: 50%;
-        background: yellow;
+
 
         img {
             width: 66px;

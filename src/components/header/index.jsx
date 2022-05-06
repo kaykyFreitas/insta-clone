@@ -3,6 +3,7 @@ import { AiOutlineHeart, AiFillHome } from 'react-icons/ai';
 import { FiSend } from 'react-icons/fi';
 import { GoDiffAdded } from 'react-icons/go';
 import { IoNavigateCircleOutline } from 'react-icons/io5';
+import logo from '../../instaLogo.png'
 
 export function Header() {
 
@@ -10,7 +11,7 @@ export function Header() {
     return(
         <>
             <HeaderContainer>
-                <Logo>Instagram</Logo>
+                <Logo><img src={ logo } alt="Logo" /></Logo>
                 <SearchBar placeholder="Search"/>
                 <HeaderMenu>
                     <MenuOpt><AiFillHome size="24" /></MenuOpt>

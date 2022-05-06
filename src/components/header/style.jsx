@@ -17,10 +17,13 @@ export const HeaderContainer = styled.div`
 
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled.div`
     font-size: 40;
     font-weight: 300;
-    margin-left: 200px;
+    margin-left: 15%;
+    width: 103px;
+    height: 29px;
+
 `;
 
 

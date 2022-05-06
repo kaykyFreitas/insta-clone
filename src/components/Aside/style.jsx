@@ -10,8 +10,8 @@ export const AsideContainer = styled.div`
 
     position: fixed;
     z-index: 3;
-    top: 85px;
-    left: 830px;
+    top: 95px;
+    left: 61%;
 `;
 
 export const UserArea = styled.div`
